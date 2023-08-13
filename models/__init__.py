@@ -5,7 +5,14 @@
 from models.base_model import BaseModel
 from models.engine.file_storage import FileStorage
 
-class_dict = {'BaseModel': BaseModel}
+class_dict = {
+        'BaseModel': BaseMode,
+        'User': User,
+        'State': state,
+        'City': City,
+        'Amenity': Amenity,
+        'Place': place,
+        'Review': Review}
 
 storage = FileStorage()
 storage.reload()
