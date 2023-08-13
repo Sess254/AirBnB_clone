@@ -6,6 +6,7 @@ from BaseModel
 
 from models.base_model import BaseModel
 
+
 class Review(BaseModel):
     # Review model
     # Attributes

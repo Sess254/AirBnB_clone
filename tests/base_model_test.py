@@ -13,6 +13,7 @@ from models.place import Place
 from models.review import Review
 from uuid import uuid4
 
+
 class TestBaseModel(unittest.TestCase):
     """ define unittests for base model """
 

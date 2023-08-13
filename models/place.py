@@ -7,6 +7,7 @@ that inherits from BaseModel
 from models.base_model import BaseModel
 from typing import List
 
+
 class Place(BaseModel):
     # Place Model
     # Attributes

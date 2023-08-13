@@ -95,5 +95,6 @@ class testBaseModel(unittest.TestCase):
 
         self.assertIs(type(velour_j), dict)
 
+
 if __name__ == "__main__":
     testBaseModel()
