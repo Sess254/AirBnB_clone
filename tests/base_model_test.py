@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """ unittest for base model """
-cd 
+
 import unittest
 from models.base_model import BaseModel
 from models import storage
